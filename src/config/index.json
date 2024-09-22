@@ -1,153 +1,118 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Loran",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "О компании",
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "Преимущества",
       "href": "features"
     },
 
     {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Флот",
+      "href": "navy"
     },
     {
-      "name": "About",
+      "name": "Контакты",
       "href": "about"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Более 20 лет",
+    "subtitle": "успешной работы",
+    "description": "",
+    "img": "/assets/images/mainShip.jpg",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Главное",
       "href": "#"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "Связаться с нами",
+      "href": "mailto:agent@loran51.ru?subject=Здравствуйте, Бабо!"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "О компании",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Собственный флот",
+        "description": "Флот общим водоизмещением около 12 000 тонн, предоставляет качественные услуги в сфере морских перевозок. ",
+        "img": "/assets/images/ship1.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Проффесионализм и Опыт",
+        "description": "Мы придерживаемся принципов профессионального управления нашими судами, чтобы соответствовать требованиям клиентов, а также полностью выполнять все свои обязательства в отношении наших сотрудников по защите труда, здоровья, а так же по защите окружающей среды. \nЗа длительный период успешной работы мы накопили огромный опыт сотрудничества как с российскими, так и с иностранными партнерами, позволяющий участвовать в крупномасштабных проектах, разрабатывая уникальные технические решения для каждого из наших клиентов.",
+        "img": "/assets/images/ship2.jpg"
+      },
+      {
+        "title": "Передовые практики",
+        "description": "В своей работе компания «Лоран» стремится использовать только передовые практики и методы работы, используемые во всём мире. Мы поддерживаем систему управления, которая соответствует требованиям ISO 9001:2000, ISO 14001:2004, Международного Кодекса Управления Безопасностью, а так же имеем полный пакет документов, согласно требований Международных морских конвенций.",
+        "img": "/assets/images/ship3.jpg"
+      },
+      {
+        "title": "Оснащение судов",
+        "description": "Все наши суда оборудованы всем необходимым для комфортного проживания и работы персонала заказчика. Так на борту каждого судна оборудованы 25 комфортабельных (двух и одноместных) кают, подготовлены помещения для размещения оборудования заказчика, а так же для оборудования лабораторий. На каждом судне имеет офисное помещение для проведения совещаний, планирования работ, а также проведения любых брифингов.",
+        "img": "/assets/images/ship4.jpg"
+      }
+    ]
+  },
+  "navy": {
+    "subtitle": "Наш флот",
+    "items": [
+      {
+        "name": "Баскунчакский",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "icon": "/assets/images/ship_icon.png"
+      },
+      {
+        "name": "Петроградский",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "icon": "/assets/images/ship_icon.png"
+      },
+      {
+        "name": "Выборгский",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "icon": "/assets/images/ship_icon.png"
+      },
+      {
+        "name": "Помор",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "icon": "/assets/images/ship_icon.png"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "subtitle": "Преимущетсва при работе с нами",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Фрахт",
+        "description": "Мы имеем богатый опыт фрахтования судов специализированного назначения, таких как: гидрографические суда, научно-исследовательские суда, суда, обеспечивающие водолазные и подводные работы.",
+        "icon": "/assets/images/ship_icon.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "География работы",
+        "description": "Персонал нашей компании имеет неоценимый опыт работ в районе Баренцева, Белого, Карского и Печорского морей, а также в бассейне рек Енисея и Лены. Не смотря на это, для повышения безопасности при транспортировке грузов, наша Компания постоянно улучшает эффективность системы управления и качество предоставляемых нами услуг.",
+        "icon": "/assets/images/earth.png"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
-      }
-    ]
-  },
-  "pricing": {
-    "title": "Pricing",
-    "items": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "Охрана окружающей среды",
+        "description": "Политика Компании заключается в установлении и поддержании условий работы, должным образом учитывающих требования охраны труда и техники безопасности как нашего персонала, так и персонала заказчика. Мы так же осознаем свою ответственность об экологической\nбезопасности и снижении негативных воздействий на окружающую среду, утилизации отходов в строгом соответствии с применимыми законодательными и международными нормами и актами.",
+        "icon": "/assets/images/eco.png"
       }
     ]
   },
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "Телефон +7-(8152) 45-61-27",
         "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "content": "Телефон"
       }
-    ],
-    "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
-    }
+    ]
   }
 }
