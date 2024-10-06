@@ -6,7 +6,7 @@ export function YaMaps() {
       {' '}
       <YMaps>
         <Map
-          width="100"
+          width="100%"
           defaultState={{ center: [68.962931, 33.05643], zoom: 16 }}
         >
           <Placemark geometry={[68.962931, 33.05643]} />

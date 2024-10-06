@@ -109,9 +109,19 @@
   "about": {
     "sections": [
       {
-        "name": "Телефон +7-(8152) 45-61-27",
-        "href": "#",
+        "name": "+7-(8152) 45-61-27",
+        "href": "tel:+78152456127",
         "content": "Телефон"
+      },
+      {
+        "name": "info@loran51.ru",
+        "href": "mailto:agent@loran51.ru?subject=Здравствуйте, пользователь",
+        "content": "Почта"
+      },
+      {
+        "name": "Россия, Мурманск, Траловая улица, 12А, офис 404.",
+        "href": "https://yandex.ru/maps/23/murmansk/?from=mapframe&ll=33.055574%2C68.962739&mode=usermaps&source=mapframe&um=constructor%3Ad76f7952b6356198d0ad422181d1342b8c7ab5b1e37591ad75e53a1eea29a4c0&utm_source=mapframe&z=16",
+        "content": "Адрес"
       }
     ]
   }
